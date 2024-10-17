@@ -1,0 +1,23 @@
+div{
+  margin-top: 20px;
+}
+
+.loader{
+  border-radius: 50%;
+  border:20px solid green;
+  width: 200px;
+  height:200px;
+  border-top:20px solid black;
+  animation: example 3s ease-in 0s infinite normal;
+  margin-top: 200px;
+  
+ 
+}
+@keyframes example {
+from {
+  transform: rotate(0deg);
+ }
+ to{
+  transform: rotate(360deg);
+ }
+}
